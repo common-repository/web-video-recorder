@@ -1,0 +1,73 @@
+#play,#upload,
+#download,#record{
+  background-color: #d84a38 !important;
+  padding: 15px 0 !important;
+}
+#play:active,#upload:active,
+#download:active,#record:active {
+  background-color: #cf402f;
+}
+#play:hover,#upload:hover,
+#download:hover,#record:hover
+{
+  background-color: #767676 !important;
+  color: #fff;
+}
+#play{
+    width: 19%;
+    margin-right: 1%;
+}
+#record{
+  width: 30%;
+  margin-right: 1%;
+}
+#download{
+  width: 27%;
+  margin-right: 1%;
+
+}
+#upload{
+  width: 20%;
+  margin: 1% 1% 0 0;
+}
+.form_class{
+  clear: both;
+  padding: 3% 0;
+}
+.button_top_margin{
+  clear: both;
+  margin-top: .5em;
+}
+p.borderBelow {
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+}
+
+#gum,#recorded {
+  vertical-align: top;
+  width: 49%;
+  margin: .5%;
+  float: left;
+}
+video#gumVideo {
+  margin: 0 20px 20px 0;
+}
+
+@media screen and (max-width: 500px) {
+  button {
+    font-size: 0.8em;
+    width: calc(33% - 5px);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  video {
+    height: calc((50vw - 48px) * 3 / 4);
+    margin: 0 10px 10px 0;
+    width: calc(50vw - 48px);
+  }
+
+  video#gumVideo {
+    margin: 0 10px 10px 0;
+  }
+}
